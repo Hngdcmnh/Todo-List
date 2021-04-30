@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="action_home">HOME</string>
+    <string name="action_favorite">FAVORITE</string>
+    <string name="title_tasktest_list">Items</string>
+    <string name="title_tasktest_detail">TaskTest Detail</string>
+</resources>

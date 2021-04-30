@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradident_background"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="332dp"
+        android:layout_height="72dp"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="470dp"
+        app:cardBackgroundColor="#6EACDA"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="265dp"
+                android:layout_marginRight="265dp"
+                android:text="Name"
+                android:textSize="20dp"
+                android:textColor="#031F4B"
+                android:gravity="center_vertical"
+                />
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginBottom="14dp"
+                android:singleLine="true"
+                android:text="" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="332dp"
+        android:layout_height="72dp"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="340dp"
+        app:cardBackgroundColor="#6EACDA"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewTarget"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="259dp"
+                android:layout_marginRight="259dp"
+                android:textColor="#031F4B"
+                android:text="Target"
+                android:textSize="20dp"
+                android:gravity="center_vertical"
+
+                />
+
+            <EditText
+                android:id="@+id/editTextTarget"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginBottom="10dp"
+                android:singleLine="true"
+                android:text="" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="332dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="210dp"
+        app:cardBackgroundColor="#6EACDA"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textViewDueDate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="231dp"
+                android:layout_marginRight="231dp"
+                android:textColor="#031F4B"
+                android:text="Due date"
+                android:textSize="20dp"
+                android:gravity="center_vertical"
+                />
+
+            <EditText
+                android:id="@+id/editTextDueDate"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="63dp"
+                android:layout_marginRight="63dp"
+                android:layout_marginBottom="13dp"
+                android:singleLine="true"
+                android:text="" />
+
+            <Button
+                android:id= "@+id/buttonChooseDay"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#031F4B"
+                android:background="@drawable/ic_baseline_calendar_today_24" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonOke"
+        android:layout_width="119dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginRight="139dp"
+        android:layout_marginBottom="57dp"
+        android:text="Done"
+        android:textSize="20dp"
+        android:background="@drawable/buttom_rectangle_radius"
+
+
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="600dp"
+        app:cardBackgroundColor="#6EACDA"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#042D6E"
+            android:text="New Task"
+            android:textSize="40dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

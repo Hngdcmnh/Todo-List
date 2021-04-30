@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <item android:id="@+id/btnvtoday"
+        android:title="Day"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        />
+
+    <item android:id="@+id/btnvweek"
+        android:title="Week"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+
+        />
+
+    <item android:id="@+id/btnvmonth"
+        android:title="Month"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+
+        />
+
+<!--    <item android:id="@+id/monday"-->
+<!--        android:title="Mon"/>-->
+<!--    <item android:id="@+id/tuesday"-->
+<!--        android:title="Tue"/>-->
+<!--    <item android:id="@+id/wednesday"-->
+<!--        android:title="Wed"/>-->
+<!--    <item android:id="@+id/thursday"-->
+<!--        android:title="Thu"/>-->
+<!--    <item android:id="@+id/friday"-->
+<!--        android:title="Fri"/>-->
+<!--    <item android:id="@+id/saturday"-->
+<!--        android:title="Sat"/>-->
+<!--    <item android:id="@+id/sunday"-->
+<!--        android:title="Sun"/>-->
+
+
+
+
+</menu>
